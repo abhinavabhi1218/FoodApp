@@ -1,0 +1,1018 @@
+[2023-04-10T11:36:12.159] [ERROR] default - Error: Email Not registered!
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\AdminController.js:91:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-10T11:38:45.905] [ERROR] default - TypeError: Cannot read properties of null (reading 'username')
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\AdminController.js:62:27
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-04-10T11:39:47.092] [ERROR] default - TypeError: Cannot read properties of null (reading 'username')
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\AdminController.js:62:27
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-04-10T11:39:52.735] [ERROR] default - Error: Email already exists
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\AdminController.js:20:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 400
+}
+[2023-04-10T11:39:57.507] [ERROR] default - TypeError: Cannot read properties of null (reading 'username')
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\AdminController.js:62:27
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-04-10T11:40:43.723] [ERROR] default - TypeError: Cannot read properties of null (reading 'username')
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\AdminController.js:63:27
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-04-10T11:41:59.097] [ERROR] default - ReferenceError: nodemailer is not defined
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\AdminController.js:96:25
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-04-10T11:42:31.344] [ERROR] default - ReferenceError: nodemailer is not defined
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\AdminController.js:96:25
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-04-10T11:44:39.440] [ERROR] default - ReferenceError: nodemailer is not defined
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\AdminController.js:97:25
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-04-10T11:45:47.730] [ERROR] default - ReferenceError: nodemailer is not defined
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\AdminController.js:97:25
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-04-10T11:45:59.892] [ERROR] default - ReferenceError: nodemailer is not defined
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\AdminController.js:97:25
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-04-10T11:46:22.661] [ERROR] default - ReferenceError: nodemailer is not defined
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\AdminController.js:97:25
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-04-10T11:46:43.457] [ERROR] default - ReferenceError: nodemailer is not defined
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\AdminController.js:97:25
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-04-10T11:51:52.756] [ERROR] default - Error: Invalid otp
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\AdminController.js:126:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 401
+}
+[2023-04-10T11:57:25.757] [ERROR] default - Error: Invalid otp
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\AdminController.js:132:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 401
+}
+[2023-04-10T11:57:45.782] [ERROR] default - Error: Invalid otp
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\AdminController.js:132:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 401
+}
+[2023-04-10T11:57:56.002] [ERROR] default - Error: Invalid otp
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\AdminController.js:132:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 401
+}
+[2023-04-10T11:58:03.502] [ERROR] default - Error: Invalid otp
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\AdminController.js:132:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 401
+}
+[2023-04-10T12:00:37.252] [ERROR] default - Error: All fileds are mandatory
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\AdminController.js:152:21
+    at asyncUtilWrap (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\index.js:175:3) {
+  statusCode: 400
+}
+[2023-04-10T12:01:08.284] [ERROR] default - Error: password length is too short
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\AdminController.js:168:21
+    at asyncUtilWrap (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\index.js:175:3) {
+  statusCode: 400
+}
+[2023-04-10T12:30:15.457] [ERROR] default - [Error: ENOENT: no such file or directory, open 'C:\Users\prashanthv\Klingeats Nodejs\EATS\qrimages\ripeZdhql0.png'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\prashanthv\\Klingeats Nodejs\\EATS\\qrimages\\ripeZdhql0.png'
+}
+[2023-04-10T13:27:48.192] [ERROR] default - [Error: ENOENT: no such file or directory, scandir 'C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\qrimages'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'C:\\Users\\prashanthv\\Klingeats Nodejs\\EATS\\controllers\\qrimages'
+}
+[2023-04-10T13:28:20.292] [ERROR] default - [Error: ENOENT: no such file or directory, scandir 'C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\qrimages'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'C:\\Users\\prashanthv\\Klingeats Nodejs\\EATS\\controllers\\qrimages'
+}
+[2023-04-10T13:29:02.583] [ERROR] default - [Error: ENOENT: no such file or directory, scandir 'C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\qrimages'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'C:\\Users\\prashanthv\\Klingeats Nodejs\\EATS\\controllers\\qrimages'
+}
+[2023-04-10T13:29:34.680] [ERROR] default - [Error: ENOENT: no such file or directory, scandir 'C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\qrimages'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'C:\\Users\\prashanthv\\Klingeats Nodejs\\EATS\\controllers\\qrimages'
+}
+[2023-04-10T13:31:43.054] [ERROR] default - [Error: ENOENT: no such file or directory, scandir 'C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\qrimages'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'C:\\Users\\prashanthv\\Klingeats Nodejs\\EATS\\controllers\\qrimages'
+}
+[2023-04-10T13:50:00.523] [ERROR] default - Error: Cannot find module '../qrimages'
+Require stack:
+- C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js
+- C:\Users\prashanthv\Klingeats Nodejs\EATS\routes\QrRoutes.js
+- C:\Users\prashanthv\Klingeats Nodejs\EATS\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:100:17
+    at asyncUtilWrap (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\layer.js:95:5) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\prashanthv\\Klingeats Nodejs\\EATS\\controllers\\QrController.js',
+    'C:\\Users\\prashanthv\\Klingeats Nodejs\\EATS\\routes\\QrRoutes.js',
+    'C:\\Users\\prashanthv\\Klingeats Nodejs\\EATS\\index.js'
+  ]
+}
+[2023-04-10T13:50:42.112] [ERROR] default - ReferenceError: qrimages is not defined
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:100:17
+    at asyncUtilWrap (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\index.js:175:3)
+[2023-04-10T14:10:52.388] [ERROR] default - Error: folder contain no images
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:110:21 {
+  statusCode: 404
+}
+[2023-04-10T14:18:07.474] [ERROR] default - Error: Images not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:105:21 {
+  statusCode: 404
+}
+[2023-04-10T14:41:06.405] [ERROR] default - Error: Email already exists
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\AdminController.js:21:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 400
+}
+[2023-04-10T14:42:35.188] [ERROR] default - Error: All fileds are mandatory
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\AdminController.js:15:21
+    at asyncUtilWrap (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\index.js:175:3) {
+  statusCode: 400
+}
+[2023-04-10T14:42:47.074] [ERROR] default - Error: All fileds are mandatory
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\AdminController.js:15:21
+    at asyncUtilWrap (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\index.js:175:3) {
+  statusCode: 400
+}
+[2023-04-10T14:44:53.419] [ERROR] default - Error: AdminData validation failed: email: Path `email` is invalid (#@%@%^).
+    at ValidationError.inspect (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\mongoose\lib\error\validation.js:50:26)
+    at formatValue (node:internal/util/inspect:782:19)
+    at inspect (node:internal/util/inspect:347:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2167:40)
+    at Object.format (node:internal/util/inspect:2021:10)
+    at basicLayout (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\log4js\lib\layouts.js:65:52)
+    at app (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\log4js\lib\appenders\file.js:98:23)
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\log4js\lib\log4js.js:43:5
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\log4js\lib\log4js.js:42:21) {
+  errors: {
+    email: ValidatorError: Path `email` is invalid (#@%@%^).
+        at validate (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaString.SchemaType.doValidate (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\mongoose\lib\schematype.js:1331:7)
+        at C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\mongoose\lib\document.js:2872:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'regexp',
+      path: 'email',
+      value: '#@%@%^',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'AdminData validation failed'
+}
+[2023-04-10T14:46:31.801] [ERROR] default - Error: password length is too short
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\AdminController.js:39:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 400
+}
+[2023-04-10T14:46:40.628] [ERROR] default - Error: AdminData validation failed: email: Path `email` is invalid ($#%^&*@^&^^**).
+    at ValidationError.inspect (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\mongoose\lib\error\validation.js:50:26)
+    at formatValue (node:internal/util/inspect:782:19)
+    at inspect (node:internal/util/inspect:347:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2167:40)
+    at Object.format (node:internal/util/inspect:2021:10)
+    at basicLayout (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\log4js\lib\layouts.js:65:52)
+    at app (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\log4js\lib\appenders\file.js:98:23)
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\log4js\lib\log4js.js:43:5
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\log4js\lib\log4js.js:42:21) {
+  errors: {
+    email: ValidatorError: Path `email` is invalid ($#%^&*@^&^^**).
+        at validate (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaString.SchemaType.doValidate (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\mongoose\lib\schematype.js:1331:7)
+        at C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\mongoose\lib\document.js:2872:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'regexp',
+      path: 'email',
+      value: '$#%^&*@^&^^**',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'AdminData validation failed'
+}
+[2023-04-10T14:56:07.159] [ERROR] default - Error: AdminData validation failed: MobileNumber: Path `MobileNumber` is invalid (hgfshgfhxfh).
+    at ValidationError.inspect (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\mongoose\lib\error\validation.js:50:26)
+    at formatValue (node:internal/util/inspect:782:19)
+    at inspect (node:internal/util/inspect:347:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2167:40)
+    at Object.format (node:internal/util/inspect:2021:10)
+    at basicLayout (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\log4js\lib\layouts.js:65:52)
+    at app (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\log4js\lib\appenders\file.js:98:23)
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\log4js\lib\log4js.js:43:5
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\log4js\lib\log4js.js:42:21) {
+  errors: {
+    MobileNumber: ValidatorError: Path `MobileNumber` is invalid (hgfshgfhxfh).
+        at validate (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaString.SchemaType.doValidate (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\mongoose\lib\schematype.js:1331:7)
+        at C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\mongoose\lib\document.js:2872:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'regexp',
+      path: 'MobileNumber',
+      value: 'hgfshgfhxfh',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'AdminData validation failed'
+}
+[2023-04-10T14:59:14.300] [ERROR] default - Error: AdminData validation failed: email: Path `email` is invalid ($#%^$^%#%#@gmail.com).
+    at ValidationError.inspect (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\mongoose\lib\error\validation.js:50:26)
+    at formatValue (node:internal/util/inspect:782:19)
+    at inspect (node:internal/util/inspect:347:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2167:40)
+    at Object.format (node:internal/util/inspect:2021:10)
+    at basicLayout (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\log4js\lib\layouts.js:65:52)
+    at app (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\log4js\lib\appenders\file.js:98:23)
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\log4js\lib\log4js.js:43:5
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\log4js\lib\log4js.js:42:21) {
+  errors: {
+    email: ValidatorError: Path `email` is invalid ($#%^$^%#%#@gmail.com).
+        at validate (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\mongoose\lib\schematype.js:1347:13)
+        at SchemaString.SchemaType.doValidate (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\mongoose\lib\schematype.js:1331:7)
+        at C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\mongoose\lib\document.js:2872:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'regexp',
+      path: 'email',
+      value: '$#%^$^%#%#@gmail.com',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'AdminData validation failed'
+}
+[2023-04-10T15:00:34.948] [ERROR] default - TypeError: Cannot read properties of null (reading 'username')
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\AdminController.js:64:27
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-04-10T15:03:13.940] [ERROR] default - TypeError: Cannot read properties of null (reading 'username')
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\AdminController.js:64:27
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-04-10T15:06:16.795] [ERROR] default - Error: Invalid email or password!
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\AdminController.js:75:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 401
+}
+[2023-04-10T15:07:02.876] [ERROR] default - TypeError: Cannot read properties of null (reading 'username')
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\AdminController.js:64:27
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-04-10T15:07:56.788] [ERROR] default - Error: All fileds are mandatory
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\AdminController.js:58:21
+    at asyncUtilWrap (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\index.js:175:3) {
+  statusCode: 400
+}
+[2023-04-10T15:08:11.674] [ERROR] default - Error: Invalid email or password!
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\AdminController.js:75:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 401
+}
+[2023-04-10T15:08:41.233] [ERROR] default - Error: Invalid email or password!
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\AdminController.js:75:21 {
+  statusCode: 401
+}
+[2023-04-10T15:09:27.438] [ERROR] default - ReferenceError: username is not defined
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\AdminController.js:71:75
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-04-10T15:27:51.174] [ERROR] default - Error: Email Not registered!
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\AdminController.js:93:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-10T15:28:01.918] [ERROR] default - Error: Email Not registered!
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\AdminController.js:93:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-10T15:28:09.100] [ERROR] default - Error: Email Not registered!
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\AdminController.js:93:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-10T15:31:39.500] [ERROR] default - Error: Email Not registered!
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\AdminController.js:93:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-10T15:35:09.731] [ERROR] default - Error: missing some mandatory fields
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:30:21
+    at asyncUtilWrap (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\index.js:175:3) {
+  statusCode: 400
+}
+[2023-04-10T15:37:39.291] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'hashcode')
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:64:49
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-04-10T15:38:09.404] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'hashcode')
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:64:49
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-04-10T15:47:01.794] [ERROR] default - Error: Email Not registered!
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\AdminController.js:93:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-10T15:48:43.444] [ERROR] default - TypeError: Cannot read properties of null (reading 'username')
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\AdminController.js:64:27
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-04-10T15:51:26.366] [ERROR] default - Error: Email not registered
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\AdminController.js:64:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 401
+}
+[2023-04-10T15:52:50.744] [ERROR] default - Error: Invalid email or password!
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\AdminController.js:82:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 401
+}
+[2023-04-10T15:54:01.631] [ERROR] default - Error: Invalid email or password!
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\AdminController.js:79:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 401
+}
+[2023-04-10T15:54:10.026] [ERROR] default - ReferenceError: username is not defined
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\AdminController.js:75:75
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-04-10T15:54:56.838] [ERROR] default - Error: Email not registered
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\AdminController.js:64:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 401
+}
+[2023-04-10T15:59:53.376] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'hashcode')
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:64:49
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-04-10T17:22:04.182] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'hashcode')
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:64:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-04-10T17:22:27.144] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'hashcode')
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:65:49
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-04-10T17:23:55.571] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'hashcode')
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:69:49
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-04-10T17:24:04.589] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'hashcode')
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:69:49
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-04-10T17:25:05.183] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'hashcode')
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:69:51
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-04-10T17:25:59.257] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'hashcode')
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:70:51
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-04-10T17:28:46.932] [ERROR] default - Error: Gameid not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:65:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-10T17:29:53.002] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'hashcode')
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:69:51
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-04-10T17:30:59.331] [ERROR] default - Error: Invalid email or password!
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\AdminController.js:80:21 {
+  statusCode: 401
+}
+[2023-04-10T17:32:44.661] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'hashcode')
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:69:51
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-04-10T17:35:14.038] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'hashcode')
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:72:51
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-04-10T17:39:29.710] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'hashcode')
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:73:29
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-04-10T17:39:51.800] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'open')
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:74:73
+[2023-04-10T17:57:45.650] [ERROR] default - Error: All fileds are mandatory
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:92:21
+    at asyncUtilWrap (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\index.js:421:3) {
+  statusCode: 400
+}
+[2023-04-10T18:05:30.232] [ERROR] default - Error: All fileds are mandatory
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:92:21
+    at asyncUtilWrap (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\index.js:421:3) {
+  statusCode: 400
+}
+[2023-04-10T18:11:21.505] [ERROR] default - Error: All fileds are mandatory
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:92:21
+    at asyncUtilWrap (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\index.js:421:3) {
+  statusCode: 400
+}
+[2023-04-10T18:25:20.282] [ERROR] default - Error: game status is already updated
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:106:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 503
+}
+[2023-04-10T18:25:58.920] [ERROR] default - Error: game status is already updated
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:106:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 503
+}
+[2023-04-13T12:29:43.051] [ERROR] default - Error: Invalid email or password!
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\AdminController.js:80:21 {
+  statusCode: 401
+}
+[2023-04-14T11:03:17.811] [ERROR] default - ReferenceError: PDFDocument is not defined
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:71:17
+    at asyncUtilWrap (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\index.js:175:3)
+[2023-04-14T11:07:45.957] [ERROR] default - Error: ENOENT: no such file or directory, open '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'
+    at Object.openSync (node:fs:585:3)
+    at Object.readFileSync (node:fs:453:35)
+    at Function.open (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\pdfkit\js\pdfkit.js:4628:19)
+    at PDFDocument.openImage (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\pdfkit\js\pdfkit.js:4771:24)
+    at PDFDocument.image (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\pdfkit\js\pdfkit.js:4672:22)
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:83:11
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  errno: -4058,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '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'
+}
+[2023-04-14T11:08:48.858] [ERROR] default - Error: ENOENT: no such file or directory, open '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'
+    at Object.openSync (node:fs:585:3)
+    at Object.readFileSync (node:fs:453:35)
+    at Function.open (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\pdfkit\js\pdfkit.js:4628:19)
+    at PDFDocument.openImage (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\pdfkit\js\pdfkit.js:4771:24)
+    at PDFDocument.image (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\pdfkit\js\pdfkit.js:4672:22)
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:83:11
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  errno: -4058,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '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'
+}
+[2023-04-14T11:17:51.664] [ERROR] default - Error: ENOENT: no such file or directory, open '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'
+    at Object.openSync (node:fs:585:3)
+    at Object.readFileSync (node:fs:453:35)
+    at Function.open (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\pdfkit\js\pdfkit.js:4628:19)
+    at PDFDocument.openImage (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\pdfkit\js\pdfkit.js:4771:24)
+    at PDFDocument.image (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\pdfkit\js\pdfkit.js:4672:22)
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:83:11
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  errno: -4058,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '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'
+}
+[2023-04-14T11:18:41.977] [ERROR] default - Error: ENOENT: no such file or directory, open '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'
+    at Object.openSync (node:fs:585:3)
+    at Object.readFileSync (node:fs:453:35)
+    at Function.open (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\pdfkit\js\pdfkit.js:4628:19)
+    at PDFDocument.openImage (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\pdfkit\js\pdfkit.js:4771:24)
+    at PDFDocument.image (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\pdfkit\js\pdfkit.js:4672:22)
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:83:11
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  errno: -4058,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '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'
+}
+[2023-04-14T11:19:32.632] [ERROR] default - Error: ENOENT: no such file or directory, open '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'
+    at Object.openSync (node:fs:585:3)
+    at Object.readFileSync (node:fs:453:35)
+    at Function.open (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\pdfkit\js\pdfkit.js:4628:19)
+    at PDFDocument.openImage (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\pdfkit\js\pdfkit.js:4771:24)
+    at PDFDocument.image (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\pdfkit\js\pdfkit.js:4672:22)
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:83:11
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  errno: -4058,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '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'
+}
+[2023-04-14T11:20:05.786] [ERROR] default - Error: ENOENT: no such file or directory, open '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'
+    at Object.openSync (node:fs:585:3)
+    at Object.readFileSync (node:fs:453:35)
+    at Function.open (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\pdfkit\js\pdfkit.js:4628:19)
+    at PDFDocument.openImage (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\pdfkit\js\pdfkit.js:4771:24)
+    at PDFDocument.image (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\pdfkit\js\pdfkit.js:4672:22)
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:83:11
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  errno: -4058,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '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'
+}
+[2023-04-14T11:21:25.514] [ERROR] default - Error: ENOENT: no such file or directory, open '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'
+    at Object.openSync (node:fs:585:3)
+    at Object.readFileSync (node:fs:453:35)
+    at Function.open (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\pdfkit\js\pdfkit.js:4628:19)
+    at PDFDocument.openImage (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\pdfkit\js\pdfkit.js:4771:24)
+    at PDFDocument.image (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\pdfkit\js\pdfkit.js:4672:22)
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:84:11
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  errno: -4058,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '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'
+}
+[2023-04-14T11:21:53.517] [ERROR] default - Error: ENOENT: no such file or directory, open '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'
+    at Object.openSync (node:fs:585:3)
+    at Object.readFileSync (node:fs:453:35)
+    at Function.open (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\pdfkit\js\pdfkit.js:4628:19)
+    at PDFDocument.openImage (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\pdfkit\js\pdfkit.js:4771:24)
+    at PDFDocument.image (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\pdfkit\js\pdfkit.js:4672:22)
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:84:11
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  errno: -4058,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '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'
+}
+[2023-04-14T11:23:00.116] [ERROR] default - Error: ENOENT: no such file or directory, open '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'
+    at Object.openSync (node:fs:585:3)
+    at Object.readFileSync (node:fs:453:35)
+    at Function.open (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\pdfkit\js\pdfkit.js:4628:19)
+    at PDFDocument.openImage (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\pdfkit\js\pdfkit.js:4771:24)
+    at PDFDocument.image (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\pdfkit\js\pdfkit.js:4672:22)
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:83:11
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  errno: -4058,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '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'
+}
+[2023-04-14T11:42:05.690] [ERROR] default - ReferenceError: qr is not defined
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:50:20
+[2023-04-14T11:44:06.302] [ERROR] default - ReferenceError: qr is not defined
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:50:20
+[2023-04-14T11:53:10.263] [ERROR] default - TypeError: qrfds.batchnum is not a function
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:51:89
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-04-14T12:14:20.601] [ERROR] default - ReferenceError: pdf is not defined
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:43:23
+    at asyncUtilWrap (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\router\index.js:175:3)
+[2023-04-14T12:14:50.143] [ERROR] default - ReferenceError: qrCode is not defined
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:58:15
+[2023-04-14T12:15:26.432] [ERROR] default - ReferenceError: qrCode is not defined
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:58:15
+[2023-04-14T12:15:48.041] [ERROR] default - TypeError: QRCode.replace is not a function
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:58:22
+[2023-04-14T12:16:35.780] [ERROR] default - TypeError: qrCode.replace is not a function
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:59:22
+[2023-04-14T12:17:03.362] [ERROR] default - ReferenceError: baseurl is not defined
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:59:39
+[2023-04-14T12:17:21.628] [ERROR] default - Error: ENOENT: no such file or directory, open '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'
+    at Object.openSync (node:fs:585:3)
+    at Object.readFileSync (node:fs:453:35)
+    at Function.open (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\pdfkit\js\pdfkit.js:4628:19)
+    at PDFDocument.openImage (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\pdfkit\js\pdfkit.js:4771:24)
+    at PDFDocument.image (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\pdfkit\js\pdfkit.js:4672:22)
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:61:9
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  errno: -4058,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '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'
+}
+[2023-04-14T12:47:38.029] [ERROR] default - ReferenceError: base64Img is not defined
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:66:19
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-04-17T15:47:39.315] [ERROR] default - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: play and win
+    at new NodeError (node:internal/errors:372:5)
+    at ServerResponse.writeHead (node:_http_server:275:11)
+    at ServerResponse._implicitHeader (node:_http_server:266:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\prashanthv\Klingeats Nodejs\EATS\node_modules\express\lib\response.js:278:15)
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:86:36
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ERR_HTTP_INVALID_STATUS_CODE'
+}
+[2023-04-17T16:27:01.304] [ERROR] default - Error: Gameid not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:80:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-17T16:27:11.840] [ERROR] default - Error: Gameid not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:80:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-17T16:37:00.922] [ERROR] default - Error: Gameid not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:80:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-17T16:57:47.334] [ERROR] default - Error: Gameid not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:80:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-17T17:24:57.926] [ERROR] default - Error: Gameid not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:80:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-17T17:28:45.171] [ERROR] default - Error: Gameid not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:80:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-17T17:28:55.251] [ERROR] default - Error: Gameid not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:80:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-17T17:29:07.731] [ERROR] default - Error: Gameid not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:80:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-17T17:30:21.773] [ERROR] default - Error: Gameid not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:80:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-17T17:30:54.589] [ERROR] default - Error: Gameid not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:80:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-17T17:31:29.849] [ERROR] default - Error: Gameid not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:80:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-17T17:31:30.834] [ERROR] default - Error: Gameid not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:80:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-17T17:31:45.587] [ERROR] default - Error: Gameid not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:80:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-17T17:33:33.157] [ERROR] default - Error: Gameid not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:80:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-17T17:44:29.831] [ERROR] default - Error: Gameid not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:80:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-17T17:44:42.748] [ERROR] default - Error: Gameid not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:80:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-17T17:45:03.895] [ERROR] default - Error: Gameid not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:80:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-17T17:45:05.917] [ERROR] default - Error: Gameid not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:80:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-17T17:45:12.779] [ERROR] default - Error: Gameid not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:80:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-17T17:45:12.880] [ERROR] default - Error: Gameid not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:80:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-17T17:45:12.947] [ERROR] default - Error: Gameid not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:80:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-17T17:45:13.000] [ERROR] default - Error: Gameid not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:80:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-17T17:45:23.565] [ERROR] default - Error: Gameid not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:80:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-17T17:45:28.430] [ERROR] default - Error: Gameid not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:80:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-17T17:45:30.783] [ERROR] default - Error: Gameid not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:80:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-17T17:45:36.793] [ERROR] default - Error: Gameid not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:80:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-17T17:45:44.381] [ERROR] default - Error: Gameid not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:80:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-17T17:45:56.931] [ERROR] default - Error: Gameid not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:80:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-17T17:45:57.034] [ERROR] default - Error: Gameid not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:80:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-17T17:46:01.617] [ERROR] default - Error: Gameid not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:80:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-17T17:48:36.842] [ERROR] default - Error: Gameid not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:80:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-17T17:51:01.831] [ERROR] default - Error: Gameid not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:80:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-17T18:31:52.576] [ERROR] default - Error: Gameid not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:80:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-17T18:33:32.999] [ERROR] default - Error: Gameid not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:80:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-17T18:39:08.346] [ERROR] default - Error: Gameid not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:80:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-17T18:39:13.307] [ERROR] default - Error: Gameid not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:80:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-17T18:39:14.455] [ERROR] default - Error: Gameid not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:80:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-17T18:44:41.405] [ERROR] default - Error: Gameid not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:80:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-17T18:44:42.117] [ERROR] default - Error: Gameid not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:80:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-17T18:47:13.074] [ERROR] default - Error: Gameid not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:80:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-17T18:49:07.232] [ERROR] default - Error: Gameid not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:80:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-17T18:49:09.491] [ERROR] default - Error: Gameid not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:80:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-17T18:50:02.772] [ERROR] default - Error: Gameid not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:80:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-17T18:51:11.775] [ERROR] default - Error: Gameid not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:80:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-17T18:52:25.768] [ERROR] default - Error: Gameid not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:80:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-17T18:53:29.772] [ERROR] default - Error: Gameid not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:80:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-17T18:56:33.084] [ERROR] default - Error: Gameid not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:80:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-17T19:12:27.225] [ERROR] default - Error: Gameid not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:80:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-17T19:40:07.906] [ERROR] default - Error: Gameid not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:80:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-17T19:40:08.479] [ERROR] default - Error: Gameid not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:80:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-17T19:40:09.319] [ERROR] default - Error: Gameid not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:80:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-17T19:40:14.202] [ERROR] default - Error: Gameid not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:80:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}
+[2023-04-17T19:42:11.724] [ERROR] default - Error: Gameid not found
+    at C:\Users\prashanthv\Klingeats Nodejs\EATS\controllers\QrController.js:80:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  statusCode: 404
+}

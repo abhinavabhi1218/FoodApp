@@ -1,0 +1,101 @@
+/* Thin 100 | ExtraLight 200 | Light 300 | Regular 400 | Medium 500 | SemiBold 600 | Bold 700 | ExtraBold 800 | Black 900 */
+
+/* :root { --primary-color: #00B4D8; --secondary-color:#006BA6; --green-color:#2DC653; --dark-gry:#64748B; --red-color:#FF4747;} */
+
+/* body { font-family: 'Poppins', sans-serif; font-weight: 400; background-color: #121212; overflow: hidden; font-size: 14px;} */
+ul { padding: 0; }
+ul,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 { margin:0; font-family: 'Poppins', sans-serif !important;}
+p { font-size: 14px !important; line-height: 20px !important; margin: 0; color: #1E293B; }
+a { outline: none; color: #fff; text-decoration: none; font-family: 'Poppins', sans-serif !important; transition: 0.4s all linear;}
+a:focus{outline: none;}
+img{max-width: 100%;}
+a:hover { text-decoration: none !important; transition: 0.4s all linear;}
+a:focus{text-decoration: none;}
+
+/* width */
+::-webkit-scrollbar { width: 7px; height: 7px; }
+::-webkit-scrollbar:horizontal { height: 7px; }
+
+/* Track */
+::-webkit-scrollbar-track { background: #ECEEF0; }
+
+/* Handle */
+::-webkit-scrollbar-thumb { background: #626f71; border-radius: 10px; }
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover { background: #626f71; }
+
+/* width */
+::-webkit-scrollbar { width: 7px; height: 7px; }
+::-webkit-scrollbar:horizontal { height: 7px; }
+
+/* Track */
+::-webkit-scrollbar-track { background: #adb6bf; }
+
+/* Handle */
+::-webkit-scrollbar-thumb { background: #626f71; border-radius: 10px; background: var(--primary-color);}
+
+
+/* placeholder */
+
+::-webkit-input-placeholder { /* Edge */
+  color: #fff !important;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #fff !important;
+}
+
+::placeholder {
+  color: #fff !important;
+}
+/* .common-btn{font-weight: 500; text-transform: uppercase; font-size: 20px;line-height: 30px;text-align: center;letter-spacing: 0.05em;color: #000000; background: #00FF7F; width: 100%; border: 1px solid #00FF80;backdrop-filter: blur(9.5px);border-radius: 8px; padding: 12px;} */
+
+.main-section{ padding: 70px 50px;}
+.min-game{display: flex;}
+.min-game .title-setting-area{display: flex; justify-content: space-between; margin-bottom: 24px; gap: 24px;}
+.min-game .title-setting-area h1{font-weight: 500;font-size: 20px;letter-spacing: 0.05em;color: #FFFFFF;}
+.min-game .title-setting-area ul{display: flex; gap: 24px;}
+.min-game .title-setting-area a:hover{opacity: .6;}
+.min-game .form-control{background: rgba(255, 255, 255, 0.3);border: 1px solid #00FF80;border-radius: 8px; font-size: 18px; line-height: 27px;letter-spacing: 0.05em;color: #FFFFFF; padding: 14px 16px; padding-left: 80px;}
+.min-game .form-control:hover,
+.min-game .form-control:focus{box-shadow: 0 0 6px #00FF7F; outline: #00FF7F;}
+.min-game .form-group{position: relative;}
+.min-game .form-group label{position: absolute; font-weight: 500;font-size: 18px;line-height: 27px;letter-spacing: 0.05em;color: #FFFFFF; padding: 14px 16px; border-right: 1px solid #00FF80;}
+.info{font-weight: 400; margin-top: 8px; display: block; font-size: 14px;line-height: 21px;letter-spacing: 0.05em;color: #FFFFFF;opacity: 0.8;}
+.info svg{margin-right: 3px;}
+.spin-circle{display: flex;  justify-content: space-between; margin: 30px 10px 38px 10px;}
+.spin-circle a{display: flex; justify-content: center;align-items: center; background: #fff; position: relative; width: 150px; height: 150px; border-radius: 50%;  z-index: 1;}
+.spin-circle a.red{background: #BA0101}
+.spin-circle a:focus:after,
+.spin-circle a:focus:after,
+.spin-circle a:hover:after{ content: ''; position: absolute; inset: 0; left: -10px; margin: auto; width: 170px; height: 170px; border-radius: 50%; background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.3) 89.58%, rgba(0, 255, 127, 0.3) 100%);
+  filter: blur(5px); z-index: -1;}
+
+
+.form-group .icon {position: absolute;bottom: 0;font-size: 12px;padding: 14px 16px;}
+#no-of-cops {padding-left: 165px;margin-top: 30px;}
+
+@media screen and (max-width:1279px){
+  .locker-area .all-locker {margin-bottom: 15px;}
+}
+
+@media screen and (max-width:1023px){
+  .no-of-cops ul {margin-bottom: 10px !important;}
+  .result-board {margin-bottom: 0;}
+}
+
+@media screen and (max-width:639px){
+  .no-of-cops li {width: 40px;height: 40px;}
+  .no-of-cops li a {font-weight: 600;font-size: 16px;}
+  #no-of-cops {margin-top: 20px;}
+  .result-board .speed-count li {padding: 10px;}
+}
+

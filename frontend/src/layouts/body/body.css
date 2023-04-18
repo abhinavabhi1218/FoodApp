@@ -1,0 +1,159 @@
+
+
+h2 {
+    font-size: 180%;
+    font-weight: 700px;
+    text-align: center;
+    padding-top: 2%
+  }
+  h3 {
+    font-size: 175%;
+    line-height: 155%;
+    padding: 5% 0;
+  }
+  p {
+    font-size: 110%;
+    line-height: 150%;
+    padding: 1%;
+    text-indent: 2%;
+    text-align: justify;
+    color: #F5F5F5;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    margin-bottom: -4px;
+  }
+  
+  .banner {
+    width: 100%;
+    background-color: #6991AC;
+  }
+  .banner-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  .one-fourth {
+    width: 25%;
+    float: left;
+    text-align: center;
+  }
+  #html {
+    background-color: #F1AA90;
+  }
+  #css {
+    background-color: #8BE9AD;
+  }
+  #seo {
+    background-color: #AADCD2;
+  }
+  #social {
+    background-color: #A2b2C1;
+  }
+  .one-fourth i {
+    color: #F0F0F0;
+    font-size: 500%;
+    padding: 13% 0 4% 0;
+  }
+  .inner-wrapper {
+    float: left;
+    width: 100%;
+    background-color: #C3D7DF;
+  }
+  article {
+    float: left;
+    width: 50%;
+    margin: 0 auto;
+    height: auto;
+  }
+  #tablet {
+    background-color: #C3D7DF;
+  }
+  aside {
+    width: 50%;
+    float: right;
+    margin: 0 auto;
+    height: auto;
+  }
+  #tablet2 {
+    background-color: #A2B1C1;
+  }
+  #mobile {
+    background-color: #BEB9AD;
+  }
+  #desktop {
+    background-color: #F1AA90;
+  }
+  .inner-wrapper-2 {
+    width: 100%;
+    float: left;
+    background-color: #C3D7DF;
+  }
+  .inner-wrapper-3 {
+    width: 100%;
+    float: left;
+    background-color: #AADCD2;
+  }
+  .one-third {
+    width: 33.33333333%;
+    float: left;
+    text-align: center;
+  }
+  #google {
+    background-color: #A2B1C1;
+  }
+  #marketing {
+    background-color: #BEB98D;
+  }
+  #customers {
+    background-color: #AADCD2;
+  }
+  #smelly {
+    background-color: #AADCD2;
+    padding: 0 0 1%;
+    clear: both;
+  }
+ 
+  /*---media start----*/
+  @media screen and (max-width: 768px) {
+    h2 {
+      font-size: 150%;
+    }
+    h3 {
+      font-size: 125%;
+    }
+    p {
+      font-size: 110%;
+    }
+   
+    .banner {
+      padding-top: 86px;
+    }
+    .one-fourth {
+      float: left;
+      width: 100%;
+    }
+    .one-fourth i {
+      font-size: 350%;
+      padding: 4% 0 1% 0;
+    }
+    article {
+      width: 100%;
+    }
+    aside {
+      width: 100%;
+    }
+    .hand-mobile {
+      display: none;
+    }
+    .one-third {
+      width: 100%;
+    }
+    .social i {
+      font-size: 180%;
+    }
+  }
+  
+  
+  

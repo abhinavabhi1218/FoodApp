@@ -1,0 +1,101 @@
+
+
+
+.thief{display: block; height: 100%; width: 100%; position: absolute; background-image: url(../game/mines/thief.png); background-position: bottom; bottom: 0; z-index: 1; background-repeat: no-repeat; background-size: 75%;}
+.min-game{display:flex;gap:130px;justify-content:center;align-items:center; position: relative; z-index: 2;}
+.min-game .title-setting-area{display:flex;justify-content:space-between;margin-bottom:var(--bottom-space);gap:24px;}
+.min-game .title-setting-area h1{font-weight:500;font-size:20px;letter-spacing:0.05em;color:#FFFFFF;}
+.min-game .title-setting-area ul{display:flex;gap:24px;}
+.min-game .title-setting-area a:hover{opacity:.6;}
+.min-game .form-control{border:1px solid #D9D9D9;font-size:20px;line-height:20px; font-weight: 600; color:#000000;padding:12px;padding-left:48px; background: #D9D9D9;box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.25);border-radius: 15px;}
+.min-game .form-control:hover,.min-game .form-control:focus{box-shadow:0 0 6px var(--primary-color);outline:var(--primary-color);}
+.min-game .form-group{position:relative; margin-bottom: var(--bottom-space);}
+.min-game .form-group .icon{position: absolute; bottom: 0; font-size: 12px; padding:14px 16px;}
+.min-game .form-group label{font-weight: 600;font-size: 20px;line-height: 23px;text-align: center;letter-spacing: 0.1em;color: #FFFFFF; margin-bottom: 12px;}
+
+.no-of-cops ul{display: flex; gap: 28px; justify-content: space-around; margin-bottom: var(--bottom-space);}
+.no-of-cops li{width: 43px; height: 43px; background: #fff; border: solid 2px var(--primary-color); border-radius: 10px; display: flex; justify-content: center; align-items: center; cursor: pointer;}
+.no-of-cops li a{font-weight: 500;font-size: 20px;line-height: 23px;text-align: center;letter-spacing: 0.1em;color: #000000;}
+.no-of-cops li:hover,
+.no-of-cops li.active{background-color: var(--primary-color); transition: all .4s linear;}
+.no-of-cops li:hover a,
+.no-of-cops li.active a{color: #fff;}
+
+.locker-area .spped ul{display: flex; gap: 2px;}
+.locker-area .spped li{background: #2B2626; border-radius: 13px; padding: 10px;}
+.locker-area .spped li a{font-weight: 500;font-size: 12px;line-height: 14px;text-align: center;letter-spacing: 0.1em;color: #FFFFFF; cursor: auto;}
+.locker-area .spped li.active{background: #fff;}
+.locker-area .spped li.active a{color: #2B2626;}
+
+.locker-area .all-locker{margin-top: 24px; display: flex;}
+.locker-area .all-locker ul{display: grid; grid-template-columns: repeat(5, 1fr); gap: 20px;}
+
+.jain-room, .bank-name{width: 370px; height: 96px; display: flex; justify-content: center; align-items: center; margin: 0 auto; background: #fff; position: relative; margin-bottom: 80px; transition: all 1.2s linear;}
+.jain-room:after, .bank-name:after{content: ''; position: absolute; width: 96%; height: 90%; background: transparent; border: solid 1px #000;}
+.jain-room{display: none;}
+.bank-name.changes{display: none;}
+.jain-room.changes{display: flex; transition: all 1.2s linear; animation: flipInX 1s linear;}
+
+.all-locker .open{display: none;}
+.all-locker .selected .close{display: none; }
+.all-locker .selected .open{display: block; animation: flipInY .4s linear;}
+
+.jail:after{ content: ''; position: fixed; width: 100%; height: 100%; background-image: url(../game/mines/jail.png); background-size: cover; background-repeat: no-repeat; background-position: bottom; left: 0; top: -100%; z-index: 999;}
+.police-entry .jail:after{top: 0; animation: bounceInDown 4s linear;}
+
+.jail:before { content: ''; position: fixed; display: block; width: 100%; height: 100%; 
+background-color: rgba(0, 0, 0, 0.6);  transition: all 2s ease-out; top: 0; visibility: hidden; left: 0; opacity: 0;}
+.police-entry .jail:before{visibility: visible; transition: all 2s ease-in; z-index: 10; opacity: 1; animation: 3s fadeIn linear;}
+.police{display: none; position: fixed; width: 100%; height: 100%; bottom: 0; left: 0; z-index: 99;  justify-content: center; gap: 10%; align-items: flex-end; background: rgba(0, 0, 0, 0.4); transition: all 1s ease-in;}
+.police-entry .police{display: flex; transition: all 1s ease-in;}
+.form-control{background:#030304;border-radius:17px;border-color:transparent;font-weight:400;font-size:16px;letter-spacing:0.05em;color:#FFFFFF;padding:13px;padding-left:86px;caret-color:#fff;outline:none;border:none;}
+.form-control:hover,.form-control:focus{background:#030304;color:#fff;}
+.form-group{position:relative;}
+.form-group label{position:absolute;font-weight:500;font-size:16px;letter-spacing:0.05em;color:#FFFFFF;text-shadow:1px 1px 2px rgba(255,255,255,0.2);padding:0 16px;height:22px;top:0;bottom:0;margin:auto;border-right:2px solid #fff;}
+
+@media screen and (max-width:1599px){
+    .form-control{max-width:430px;}
+    .title-setting-area h1{font-size:12px;}
+    .title-setting-area ul,.title-setting-area{gap:10px;}
+    #scene[data-dice-num="1"]{--idealDieSpace:max(200px,420px);}
+}
+@media screen and (max-width:1365px){
+    .common-btn{font-size:16px;padding:10px;}
+    .form-control{font-size:16px;}
+    .mainContainer .centerBox{padding:0 30px;}
+    .gameAreaBox{margin-top:40px;}
+}
+@media screen and (max-width:1279px){
+  
+    .form-control{padding:10px;padding-left:80px;}
+    .form-group label{height:28px;}
+    
+    .form-control{width:100%;max-width:none;}
+}
+@media screen and (max-width:1023px){
+    .main-section{padding:30px;height:auto;margin-top:60px;}
+    .title-setting-area ul{gap:15px;}
+    .form-control{width:100%;}
+    .form-control{padding:10px 14px;padding-left:80px;font-size:14px;}
+    .form-group label{font-size:14px;line-height:30px;}
+    .common-btn{font-size:16px;padding:8px;}
+   
+}
+@media screen and (max-width:767px){
+}
+@media screen and (max-width:639px){
+ 
+    .form-control{padding:8px 14px;padding-left:70px;}
+    .title-setting-area h1{font-size:14px;padding:4px 0;}
+    .title-setting-area ul svg{height:16px;}
+    
+    .form-group label{height: 16px; line-height: 16px;}
+    .dice-number ul{margin: 10px auto; width: 100%;}
+    .mainContainer .centerBox{padding: 0 20px;}
+    .gameAreaBox {margin-top: 20px;}
+}
+@media screen and (max-width:479px){
+  
+    .form-control{padding:4px 10px;padding-left:70px;border-radius:15px;}
+    .form-group label{height:20px;line-height:21px;}
+}

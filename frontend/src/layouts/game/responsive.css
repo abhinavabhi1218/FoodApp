@@ -1,0 +1,681 @@
+@media screen and (max-width: 1919px) {
+    .mainContainer .centerBox {margin-left: 325px;}
+    .gameAreaBox{margin-top: 45px;}
+
+}
+
+@media screen and (max-width: 1599px) {
+    .result-board .speed-count ul{align-items: start;}
+    .mainContainer .centerBox {margin-left:280px;}
+    .main-section {padding: 15px;}
+
+}
+
+@media only screen and (max-width: 1340px) {}
+
+@media screen and (max-width: 1439px) {
+    .mainContainer .leftBox {top: 66px;}
+    .result-board .bank-roll{padding: 4px 22px;}
+    .mainContainer .centerBox {margin-left: 272px;}
+}
+
+@media screen and (max-width: 1365px) {
+    .tapBar {padding-left: 55px;padding-right: 55px;}
+    .mainContainer .centerBox {margin-left: 255px;}
+    .gameAreaBox {margin-top: 30px;}
+
+}
+
+
+@media screen and (max-width: 1279px) {
+    .gameAreaBox {
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    .gameAreaBox .gameControl {
+        width: auto;
+        border: none;
+        border-top: solid 1px #3d3d56;
+        padding: 20px 0 0;
+    }
+
+    .mainContainer .centerBox {margin-left: 205px;}
+
+}
+
+@media (min-width:993px) and (max-width: 1140px) {
+    .tapBar {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .walletBox {
+        display: none;
+    }
+
+}
+
+@media (min-width:768px) and (max-width: 992px) {
+    .tapBar {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .topRightBar {
+        margin: 0;
+    }
+
+    .mainContainer .rightBox {
+        display: none;
+    }
+
+    .mainContainer .centerBox {
+        padding: 0px 30px;
+        max-width: 80%;
+    }
+
+    .walletBox {
+        display: none;
+    }
+
+    .categoryBtn {
+        margin-right: 20px;
+    }
+
+    .categoryBtn .gameBtn {
+        padding: 10px 18px;
+    }
+
+    .searchInput {
+        max-width: 180px;
+    }
+
+    .mobileSearchBox {
+        display: block;
+        position: relative;
+    }
+
+    footer .innerFooter {
+        max-width: 80%;
+        width: 100%;
+        margin-right: 0px;
+        padding-right: 30px;
+    }
+
+    .userInfo .userDtls,
+    .userScore {
+        padding: 10px;
+    }
+
+    .dtlsTable td {
+        padding: 5px 15px 5px 0px;
+        font-size: 11px;
+    }
+
+    .scoreTable table td {
+        padding: 5px 0px;
+        font-size: 11px;
+    }
+
+    .accountStatus .innerBox .amountDtls h4 {
+        font-size: 16px;
+    }
+
+    .accountStatus .innerBox .viewLog {
+        top: 10px;
+        right: 15px;
+        font-size: 10px;
+    }
+
+    .innerCol {
+        margin-bottom: 15px;
+    }
+
+    .userScore h3 {
+        font-size: 18px;
+        line-height: 18px;
+        margin-bottom: 15px;
+    }
+    .mainContainer .centerBox {margin-left: 135px;}
+
+}
+
+@media only screen and (max-width: 767px) {
+    .mobileplayGameBox {
+        display: block;
+    }
+
+    .mobileTopBar {
+        display: block;
+        padding: 10px 14px;
+    }
+
+    .logo {
+        justify-content: center;
+    }
+
+    .logo img {
+        max-width: 96px;
+    }
+
+    .mobileTopBar .topRightBar .logo {
+        margin-right: 10px;
+    }
+
+    .mobileTopBar .topRightBar .d-flex {
+        width: 100%;
+        gap: 10px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .categoryBtn {
+        margin: 0px;
+        display: flex;
+        align-items: center;
+    }
+
+    .mobileUserProfile {
+        gap: 5px;
+        display: flex;
+        align-items: center;
+    }
+
+    .mainContainer .leftBox,
+    .mainContainer .rightBox,
+    .walletBox,
+    .searchBox {
+        display: none;
+    }
+
+    .mainContainer .centerBox .dashboardBanner {
+        padding: 50px 16px;
+    }
+
+    .playGameBox {
+        margin-top: 0;
+        padding: 0px 16px;
+    }
+
+    .playGameBox img {
+        margin-top: -5px !important;
+    }
+
+    .mainContainer .centerBox {
+        max-width: 100%;
+        padding: 0px;
+    }
+
+    .tapBar {
+        display: none;
+    }
+
+    .mainContainer .centerBox .dashboardBanner .bannerText h1 {
+        font-size: 28px;
+    }
+
+    .mainContainer .centerBox .dashboardBanner .bannerText h1 span {
+        font-size: 36px;
+    }
+
+    .gameCategory .owl-theme .owl-nav,
+    .providersBox .owl-theme .owl-nav,
+    .inHouse-game-box .owl-theme .owl-nav {
+        display: none;
+    }
+
+    .providersBox .owl-theme .owl-nav,
+    .providersBox .owl-theme .owl-nav {
+        display: block;
+        right: 24%;
+        top: -60px;
+    }
+
+    .sectionHeading {
+        margin-bottom: 26px;
+    }
+
+    .sectionHeading h2 {
+        font-size: 21px !important;
+    }
+
+    .bannerMailBox {
+        padding: 40px 30px;
+        text-align: center;
+    }
+
+    .bannerMailBox h2 {
+        font-size: 20px;
+    }
+
+    .sectionHeading a {
+        padding: 5.3px 18px;
+    }
+
+    footer {
+        padding-top: 30px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    footer .innerFooter {
+        max-width: 100%;
+    }
+
+    footer .innerFooter h4 {
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+
+    footer .innerFooter .useFullLinks {
+        display: block;
+    }
+
+    footer .innerFooter .innerCol {
+        margin-bottom: 15px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    footer .innerFooter .useFullLinks .innerCol {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .clientLogo {
+        display: flex;
+        padding: 0px 15px;
+        gap: 20px;
+    }
+
+    .innerFooter hr {
+        margin: 15px 0;
+    }
+
+    .coinBox {
+        padding: 0px 15px;
+    }
+
+    .providersBox {
+        margin-bottom: 30px;
+        padding: 19px 16px;
+        border-radius: 0px;
+    }
+
+    .mainContainer .centerBox .createAccount {
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
+
+    .bannerMailBox p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .gameCategory {
+        margin-bottom: 30px;
+    }
+
+    .gameCategory .tab-content {
+        padding: 0px 16px;
+    }
+
+    .inHouseGames {
+        margin: 30px 0px;
+        border-radius: 0;
+    }
+
+    .gameCategory .owl-carousel {
+        margin-bottom: 30px;
+    }
+
+    .profileDropDown .action span {
+        display: none;
+    }
+
+    .topRightBar {
+        margin: 0px;
+    }
+
+    button.mobileMenu {
+        padding: 0;
+        background: transparent;
+        border: none;
+    }
+
+    button.mobileMenu img {
+        width: 45px;
+    }
+
+    .categoryBtn .gameBtn {
+        padding: 8px 15px;
+        font-size: 13px;
+    }
+
+    .gameTabBg {
+        position: relative;
+        margin-bottom: 30px;
+        background-color: #1B1E28;
+        border-radius: 60px;
+    }
+
+    .mobileScroll {
+        overflow: scroll;
+        width: 280px;
+    }
+
+    .gameCategory ul#myTab {
+        margin-bottom: 0px;
+        display: table;
+        width: 75%;
+    }
+
+    .gameCategory ul#myTab li {
+        display: table-cell;
+    }
+
+    .gameCategory ul#myTab li button {
+        width: 100px;
+        padding: 10px 10px;
+    }
+
+    .mobileSearchBox {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 10px;
+    }
+
+    .mobileSearchBox .searchInput {
+        padding: 8px 25px;
+        max-width: 50px;
+        height: 50px;
+        width: 50px;
+    }
+
+    .mobileSearchBox .searchBtn {
+        color: #fff;
+        top: 12px;
+        right: 15px;
+    }
+
+    .mobileSearchBox .mobileSearchInput {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .profileDropDown {
+        display: block;
+    }
+
+    .overFlowScroll {
+        overflow-x: scroll;
+    }
+
+    .hotGames .d-flex {
+        justify-content: space-evenly;
+    }
+
+    .liveWins {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-bottom: 30px;
+    }
+
+    #profilePage .mainContainer .centerBox {
+        padding: 20px;
+    }
+
+    .userInfo .userDtls,
+    .userScore {
+        padding: 12px;
+    }
+
+    .accountStatus {
+        margin-bottom: 0px;
+    }
+
+    #editProfilePage .mainContainer .centerBox,
+    #supportPage .mainContainer .centerBox {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .userScore h3 {
+        font-size: 18px;
+        line-height: 18px;
+        margin-bottom: 15px;
+    }
+
+    .accountStatus .innerBox .viewLog {
+        top: 9px;
+        right: 15px;
+        font-size: 11px;
+    }
+
+    .accountStatus .innerBox .amountDtls h4 {
+        font-size: 20px;
+    }
+
+    .topAffiliatesTable {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .topAffiliatesTable.liveWins .d-flex .tHead {
+        padding: 15px 10px;
+        font-size: 13px;
+    }
+
+    .topAffiliatesTable.liveWins .tBody {
+        padding: 0px 10px;
+        font-size: 12px;
+    }
+
+    .liveWins .nav-tabs .nav-link.active,
+    .editProfile .nav-tabs .nav-link.active {
+        font-size: 16px;
+    }
+
+    .liveWins .nav-tabs .nav-link {
+        height: 40px;
+        padding: 8px 20px;
+        font-size: 13px;
+    }
+
+    .mainContainer .centerBox {margin-left: 0;margin-top: 35px;padding: 0 30px;}
+}
+
+
+@media screen and (max-width:639px) {
+    .mainContainer .centerBox {
+        padding: 0 20px;
+    }
+
+    .gameAreaBox {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .categoryBtn .gameBtn {
+        padding: 7px 12px;
+        font-size: 12px;
+    }
+
+    .mainContainer .centerBox .dashboardBanner .bannerText h1 {
+        font-size: 24px;
+    }
+
+    .mainContainer .centerBox .dashboardBanner .bannerText h1 span {
+        font-size: 30px;
+    }
+
+    .sectionHeading h2 {
+        font-size: 16px !important;
+    }
+
+    .providersBox .owl-theme .owl-nav,
+    .providersBox .owl-theme .owl-nav {
+        display: block;
+        right: 27%;
+        top: -61px;
+    }
+
+    button.mobileMenu img {
+        width: 40px;
+    }
+
+    .action .profile {
+        width: 36px;
+        height: 36px;
+    }
+
+    .bannerMailBox {
+        padding: 30px 20px;
+        text-align: center;
+    }
+
+    .gameTabBg {
+        position: relative;
+        margin-bottom: 30px;
+        background-color: #1B1E28;
+        border-radius: 60px;
+    }
+
+    .mobileScroll {
+        overflow: scroll;
+        width: 240px;
+    }
+
+    .gameCategory ul#myTab {
+        margin-bottom: 0px;
+        display: table;
+        width: 75%;
+    }
+
+    .gameCategory ul#myTab li {
+        display: table-cell;
+    }
+
+    .gameCategory ul#myTab li button {
+        width: 100px;
+        padding: 10px 10px;
+    }
+
+    .mobileSearchBox {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 10px;
+    }
+
+    .mobileSearchBox .searchInput {
+        padding: 8px 25px;
+        max-width: 50px;
+        height: 50px;
+        width: 50px;
+    }
+
+    .mobileSearchBox .searchBtn {
+        color: #fff;
+        top: 12px;
+        right: 15px;
+    }
+
+    .mobileSearchBox .mobileSearchInput {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .overFlowScroll {
+        overflow-x: scroll;
+    }
+
+    .liveWins .nav-tabs .nav-link.active {
+        padding: 8px 14px;
+        font-size: 14px;
+    }
+
+    .hotGames .d-flex {
+        justify-content: space-evenly;
+    }
+
+    .accountStatus .innerBox .viewLog {
+        top: 10px;
+        right: 15px;
+        font-size: 10px;
+    }
+
+    .accountStatus .innerBox .amountDtls h4 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .liveWins .nav-tabs .nav-link {
+        height: 40px;
+        padding: 8px 20px;
+        font-size: 13px;
+    }
+
+    .liveWins .d-flex .tHead {
+        padding: 15px 15px;
+        font-size: 14px;
+    }
+
+    .liveWins .tBody {
+        padding: 0px 15px;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .topAffiliatesTable {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .topAffiliatesTable.liveWins .d-flex .tHead {
+        padding: 15px 10px;
+        font-size: 13px;
+    }
+
+    .topAffiliatesTable.liveWins .tBody {
+        padding: 0px 10px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .title-setting-area {
+        margin-bottom: 10px !important;
+        flex-direction: column !important;
+        align-items: start !important;
+    }
+
+    .title-setting-area ul {
+        padding: 0 !important;
+    }
+
+    .form-control {
+        padding: 12px 10px !important;
+        padding-left: 70px !important;
+        border-radius: 10px !important;
+        font-size: 12px !important;
+    }
+
+    .gameAreaBox {
+        padding: 12px;
+    }
+
+    .title-setting-area ul,
+    .title-setting-area {
+        gap: 5px !important;
+    }
+    .result-board .speed-count li{height: auto;}
+    .result-board{gap: 10px;}
+    .mainContainer .centerBox {margin-top: 75px;padding: 0 15px;}
+}

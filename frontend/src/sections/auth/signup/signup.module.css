@@ -1,0 +1,68 @@
+.register {
+    width: 400px;
+    background: #fff;
+    border: 1px solid #dddfe2;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+.register > form input {
+    border-radius: 20px;
+    border: 2px solid lightgrey;
+    outline: none;
+    color: #1d2129;
+    margin: 2% 0;
+    width: 90%;
+    padding: 12px;
+    font-size: 16px;
+}
+
+
+.container{
+    display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png");
+}
+
+/* .button_common {
+    background-color: olivedrab;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    font-size: 22px;
+    border-radius: 15px;
+    margin: 1rem;
+    width: 90%;
+} */
+.error {
+    color: red;
+    text-align: left;
+    margin: auto;
+    font-size: 16px;
+    padding: 0px 1rem;
+}
+
+.NavLink {
+    color: #000;
+    text-decoration: none;
+    margin-right: 1rem;
+  }
+  
+  .NavLink:hover {
+    text-decoration: underline;
+  }
+  
+  
+
+
+
+
+
